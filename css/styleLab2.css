@@ -1,0 +1,73 @@
+th {
+  font-style:italic;
+  color:black;
+  align-items: center;
+  background-color:rgb(19, 208, 237) ;
+  border-style:solid; 
+  padding: 52px 52px 52px 52px
+}
+.time {
+  color:antiquewhite;
+  background-color:cornflowerblue;
+}
+td {
+  font-family: "Papyrus", fantasy;
+  color:black;
+  border-style:solid;
+  border-color:black;
+  text-align:center;
+  padding: 20x 20x 20x 20x;
+}
+body {
+  background-color:thistle;
+}
+table {
+  border-style:solid;
+  border-color:darkblue;
+}
+h1{
+  font-style:italic;
+  color:rgb(231, 16, 87);
+  align-items:center;
+}
+h2{
+  font-style:italic;
+  color:blueviolet;
+  align-items:center;
+}
+h3{
+  font-style:italic;
+  color:cadetblue;
+  align-items:center
+}
+h4 {
+  font-style:italic;
+  color:coral;
+  align-items:center;
+}
+h5 {
+  font-style:italic;
+  color:seagreen;
+  align-items:center;
+}
+h6 {
+  font-style:italic;
+  color:springgreen;
+  align-items:center;
+}
+caption{
+  font-size:60px;
+}
+a:link {
+  color:rgb(232, 24, 135); 
+}
+a:visited{
+  color:blueviolet;
+}
+a:hover{
+  color:rgb(241, 6, 198);
+  cursor: help;
+}
+a:active{
+  color:firebrick;
+}
