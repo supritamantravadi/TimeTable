@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Schedule for Suprita Mantravadi-cgsfa22ds-Fall, 2022</title>
+    <link rel="stylesheet" href="css/styleLab2.css">
+  </head>
+  <body>
+    <dl>
+      <dt>How to define a table?</dt>
+      <dd>Using the table element in html</dd>
+      <dt>When to use tr</dt>
+      <dd>You use the tr element to start a new table row</dd>
+      <dt>When to use th</dt>
+      <dd>You use the th element after the tr element to indicate that the cells in the row are header cells</dd>
+      <dt>When to use thead</dt>
+      <dd>You use the thead element to create cells (td or th) at the very top row of the table</dd>
+      <dt>When to use tfoot</dt>
+      <dd>You use the tfoot element to create cells at the very bottom row of the table</dd>
+      <dt>Caption</dt>
+      <dd>You use the caption element to create a title for the table above it</dd>
+      <dt>What is the difference between colspan and rowspan?</dt>
+      <dd>You use the colspan element to merge cells horizontally (across columns) and you use the rowspan element to merge cells vertically (across rows)</dd>
+      <dt>What is the difference between cells spacing and padding?</dt>
+      <dd>Cells spacing defines the space between cells, and padding defines the space between a cell's content and borders</dd>
+      <dt>How do you define table borders using CSS?</dt>
+      <dd>You can define table borders using the border-style and border-color functions in CSS</dd>
+      <dt>How do you control border widths using CSS?</dt>
+      <dd>You can control the border widths using the four functions border-left-width, border-right-width, border-top-width, and border-bottom-width in CSS</dd>
+    </dl>
+    <table border="5">
+      <caption>Suprita's Schedule</caption>
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+      <tr>
+        <td class="time">8:00-9:00</td>
+        <td>
+          <a href="https://www.glamour.com/story/20-songs-science-says-will-wak">Get ready for the day</a>
+        </td>
+        <td>
+          <a href="https://www.glamour.com/story/20-songs-science-says-will-wak">Get ready for the day</a>
+        </td>
+        <td>
+          <a href="https://www.glamour.com/story/20-songs-science-says-will-wak">Get ready for the day</a>
+        </td>
+        <td>
+          <a href="https://www.glamour.com/story/20-songs-science-says-will-wak">Get ready for the day</a>
+        </td>
+        <td>
+          <a href="https://www.featherandblack.com/online-features/inspiration/10-curious-facts-about-sleep">Sleep</a>
+        </td>
+        <td rowspan="3">
+          <a href="https://www.featherandblack.com/online-features/inspiration/10-curious-facts-about-sleep">Sleep in</a>
+        </td>
+        <td rowspan="2">
+          <a href="https://www.featherandblack.com/online-features/inspiration/10-curious-facts-about-sleep">Sleep in</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">9:00-10:00</td>
+        <td>
+          <a href="https://universitycenters.ucsd.edu/dining-retail/dining/Starbucks.html"> Get breakfast and study and Starbucks </a>
+          <img src="Images/starbucksucsd.jpg" width="300" height="250" />
+        </td>
+        <td>
+          <a href="https://www.kashi.com/en_US/kashi-go.html">Eat breakfast at home</a>
+        </td>
+        <td>
+          <a href="https://courses.ucsd.edu/syllabi/WI18/925878.pdf">Genetics discussion</a>
+        </td>
+        <td> 
+          <img src="Images/cereal.png" width="300" height="250" />
+          <a href="https://www.kashi.com/en_US/kashi-go.html">Eat breakfast at home</a>
+        </td>
+        <td>
+          <a href="https://www.kashi.com/en_US/kashi-go.html">Get ready for the day and eat breakfast</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">10:00-11:00</td>
+        <td>
+          <a href="https://catalog.ucsd.edu/courses/CHEM.html">Chemistry lab lecture</a>
+        </td>
+        <td rowspan="3">
+          <a href="https://yeolab.github.io/gene-yeo/">Go to work at my lab</a>
+        </td>
+        <td>
+          <a href="https://catalog.ucsd.edu/courses/CHEM.html">Chemistry lab lecture</a>
+        </td>
+        <td rowspan="3">
+          <a href="https://yeolab.github.io/gene-yeo/">Go to work at lab</a>
+        </td>
+        <td>
+          <a href="https://yeolab.github.io/gene-yeo/">Head to work at lab</a>
+        </td>
+        <td rowspan="2">
+          <a href="https://www.allrecipes.com/gallery/easy-recipes-for-college-students/">Eat food and watch TV</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">11:00-12:00</td>
+        <td>
+          <a href="https://universitycenters.ucsd.edu/dining-retail/dining/">Get lunch</a>
+        </td>
+        <td>
+          <a href="https://universitycenters.ucsd.edu/dining-retail/dining/">Get lunch</a>
+        </td>
+        <td rowspan="3">
+          <a href="https://yeolab.github.io/gene-yeo/">Go to work at my lab</a>
+        </td>
+        <td rowspan="3">
+          <a href="https://www.allrecipes.com/gallery/easy-recipes-for-college-students/">Make food and eat it</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">12:00-1:00</td>
+        <td rowspan="2">
+          <a href="https://library.ucsd.edu/">Work in the library</a>
+        </td>
+        <td rowspan="2">
+          <a href="https://library.ucsd.edu/">Work in the library</a>
+        </td>
+        <td rowspan="2">
+          <a href="https://dailycollegian.com/2010/10/15-best-songsto-do-homework-to/">Homework</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">1:00-2:00</td>
+        <td>
+          <a href="https://students.ucsd.edu/campus-services/dining/index.html">Get lunch on campus</a>
+        </td>
+        <td>
+          <a href="https://students.ucsd.edu/campus-services/dining/index.html">Get lunch on campus</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">2:00-3:00</td>
+        <td rowspan="3">
+          <img src="Images/chemlab.jpg" width="300" height="250"  />
+          <a href="https://catalog.ucsd.edu/courses/CHEM.html">Chemistry lab</a>
+        </td>
+        <td>
+          <a href="https://catalog.ucsd.edu/courses/BIOL.html">Meet friends and head to Genetics lecture</a>
+        </td>
+        <td rowspan="3">
+          <img src="Images/chemlab.jpg" width="300" height="250"  />
+          <a href="https://catalog.ucsd.edu/courses/CHEM.html">Chemistry lab</a>
+        </td>
+        <td>Meet friends and head to Genetics lecture
+          <a href="https://catalog.ucsd.edu/courses/BIOL.html">Meet friends and head to Genetics lecture</a>
+        </td>
+        <td>
+          <a href="https://disturbmenot.co/napping-statistics/#:~:text=The%20Top%2010%20Napping%20Statistics%20and%20Facts&text=Statistics%20show%20one%2Dthird%20of,caffeine%20for%20beating%20midafternoon%20sleepiness.">Take a nap</a>
+        </td>
+        <td>
+          <a href="https://disturbmenot.co/napping-statistics/#:~:text=The%20Top%2010%20Napping%20Statistics%20and%20Facts&text=Statistics%20show%20one%2Dthird%20of,caffeine%20for%20beating%20midafternoon%20sleepiness.">Take a nap</a>
+        </td>
+        <td rowspan="3">
+          <a href="https://disturbmenot.co/napping-statistics/#:~:text=The%20Top%2010%20Napping%20Statistics%20and%20Facts&text=Statistics%20show%20one%2Dthird%20of,caffeine%20for%20beating%20midafternoon%20sleepiness.">Nap</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">3:00-4:00</td>
+        <td rowspan="2">
+          <a href="https://courses.ucsd.edu/syllabi/WI18/925878.pdf">Genetics lecture</a>
+        </td>
+        <td rowspan="2">
+          <a href="https://courses.ucsd.edu/syllabi/WI18/925878.pdf">Genetics lecture</a>
+        </td>
+        <td rowspan="3">
+          <a href="https://www.westfield.com/utc">Go out with friends</a>
+        </td>
+        <td rowspan="2">
+          <img src="Images/grocery.jpg" width="300" height="250" />
+          <a href="https://www.ralphs.com/stores/grocery/ca/la-jolla/la-jolla-village-square/703/00108">Grocery shopping</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">4:00-5:00</td>
+      </tr>
+      <tr>
+        <td class="time">5:00-6:00</td>
+        <td>
+          <a href="https://www.livestrong.com/article/13724256-treadmill-walking-workout-glutes/">Go to gym</a>
+        </td>
+        <td>
+          <a href="https://library.ucsd.edu/dc/object/bb0035302c">Meet up with friends on campus</a>
+        </td>
+        <td>
+          <a href="https://www.livestrong.com/article/13724256-treadmill-walking-workout-glutes/">Go to gym</a>
+        </td>
+        <td>
+          <a href="https://library.ucsd.edu/dc/object/bb0035302c">Meet up with friends on campus</a>
+        </td>
+        <td>
+          <a href="https://www.livestrong.com/article/13724256-treadmill-walking-workout-glutes/">Go to gym</a>
+        </td>
+        <td rowspan="2"> 
+          <a href="https://friscolibrary.com/">Read my book</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">6:00-7:00</td>
+        <td>
+          <a href="https://dailycollegian.com/2010/10/15-best-songsto-do-homework-to/">Homework</a>
+        </td>
+        <td rowspan="2">
+          <a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html">COGS3 Lecture</a>
+        </td>
+        <td>
+          <a href="https://dailycollegian.com/2010/10/15-best-songsto-do-homework-to/">Homework</a>
+        </td>
+        <td rowspan="2">
+          <a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html">COGS3 Lecture</a>
+        </td>
+        <td>
+          <a href="https://www.allrecipes.com/gallery/easy-recipes-for-college-students/">Make dinner</a>
+        </td>
+        <td>
+          <a href="https://www.verywellfit.com/outdoor-walking-workouts-how-tos-and-tips-5324672">Go on a walk</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">7:00-8:00</td>
+        <td>
+          <a href="https://tasty.co/recipe/tofu-stir-fry">Dinner with roommates</a>
+        </td>
+        <td>
+          <a href="https://tasty.co/recipe/tofu-stir-fry">Dinner with roommates</a>
+        </td>
+        <td>
+          <a href="https://tasty.co/recipe/tofu-stir-fry">Dinner with roommates</a>
+        </td>
+        <td rowspan="2">
+          <a href="https://www.pastemagazine.com/movies/best-movies-on-netflix/">Watch a movie with dinner</a>
+        </td>
+        <td>
+          <a href="https://tasty.co/recipe/tofu-stir-fry">Dinner with roommates</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">8:00-9:00</td>
+        <td rowspan="2">
+          <a href="https://dailycollegian.com/2010/10/15-best-songsto-do-homework-to/">More homework</a>
+        </td>
+        <td>
+          <a href="https://www.pinterest.com/MelissaSwain321/great-ideas-for-roommate-dinner-night/">Eat dinner with roommates</a>
+        </td>
+        <td rowspan="2">
+          <a href="https://dailycollegian.com/2010/10/15-best-songsto-do-homework-to/">More homework</a>
+        </td>
+        <td>
+          <a href="https://www.pinterest.com/MelissaSwain321/great-ideas-for-roommate-dinner-night/">Eat dinner with roommates</a>
+        </td>
+        <td rowspan="3">
+          <a href="https://www.oprahdaily.com/entertainment/tv-movies/g27217752/best-movies-to-watch-with-friends/">Hang out with roommates</a>
+        </td>
+        <td>
+          <a href="https://www.allrecipes.com/gallery/easy-recipes-for-college-students/">Eat dinner</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">9:00-10:00</td>
+        <td>
+          <a href="https://dailycollegian.com/2010/10/15-best-songsto-do-homework-to/">Homework</a>
+        </td>
+        <td>
+          <img src="Images/homework.jpg" width="300" height="250" />
+          <a href="https://dailycollegian.com/2010/10/15-best-songsto-do-homework-to/">Homework</a>
+        </td>
+        <td>
+          <a href="https://hottubstore.com/">Hot tub</a>
+        </td>
+        <td>
+          <a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html">Take COGS3 Quiz :)</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">10:00-11:00</td>
+        <td>
+          <a href="https://friscolibrary.com/">Read before bed</a>
+        </td>
+        <td>
+          <a href="https://friscolibrary.com/">Read before bed</a>
+        </td>
+        <td>
+          <a href="https://friscolibrary.com/">Read before bed</a>
+        </td>
+        <td>
+          <a href="https://friscolibrary.com/">Read before bed</a>
+        </td>
+        <td rowspan="2">
+          <a href="https://conversationstartersworld.com/deep-conversation-topics/">Stay up talking with roommates</a>
+        </td>
+        <td>
+          <a href="https://www.erincondren.com/inspiration-center-organize-your-backpack">Prep for schoolweek</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="time">11:00-12:00</td>
+        <td>
+          <a href="https://www.featherandblack.com/online-features/inspiration/10-curious-facts-about-sleep">Sleep</a>
+        </td>
+        <td>
+          <a href="https://www.featherandblack.com/online-features/inspiration/10-curious-facts-about-sleep">Sleep</a>
+        </td>
+        <td>
+          <a href="https://www.featherandblack.com/online-features/inspiration/10-curious-facts-about-sleep">Sleep</a>
+        </td>
+        <td>
+          <a href="https://www.featherandblack.com/online-features/inspiration/10-curious-facts-about-sleep">Sleep</a>
+        </td>
+        <td>
+          <a href="https://www.featherandblack.com/online-features/inspiration/10-curious-facts-about-sleep">Sleep</a>
+        </td>
+        <td>
+          <a href="https://www.featherandblack.com/online-features/inspiration/10-curious-facts-about-sleep">Sleep</a>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
